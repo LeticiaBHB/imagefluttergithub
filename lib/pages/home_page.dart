@@ -39,7 +39,8 @@ class _HomePageState extends State<HomePage> {
               decorationThickness: 4.00,
               decorationColor: Colors.yellowAccent,
               decorationStyle: TextDecorationStyle.dotted
-          ),),
+          ),
+        ),
       ),
       body: SingleChildScrollView(
         child: Container(
