@@ -53,11 +53,19 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: const Text('Gerando Imagens Aleatórias'),
+          title: const Text('Imagens Aleatórias',
+            style: TextStyle(
+                decoration: TextDecoration.overline,
+                decorationThickness: 4.00,
+              decorationColor: Colors.yellowAccent,
+              decorationStyle: TextDecorationStyle.dotted
+            ),),
         ),
       body: SingleChildScrollView(
         child: Container(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Container(
                 margin: EdgeInsets.all(100),
