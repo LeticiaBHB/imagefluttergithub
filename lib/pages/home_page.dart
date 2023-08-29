@@ -51,6 +51,8 @@ class _HomePageState extends State<HomePage> {
     'assets/38.jpeg',
     'assets/39.jpeg',
     'assets/40.jpeg',
+    'assets/41.jpeg',
+    'assets/42.jpeg',
 
   ];
 
