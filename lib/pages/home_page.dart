@@ -53,7 +53,7 @@ class _HomePageState extends State<HomePage> {
     'assets/40.jpeg',
     'assets/41.jpeg',
     'assets/42.jpeg',
-
+    'assets/43.jpeg',
   ];
 
   void _gerarnumeroAleatorio (){
